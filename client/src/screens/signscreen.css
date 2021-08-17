@@ -1,0 +1,97 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 0.5px solid lightgrey;
+    max-width: 350px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+    height: 100%;
+}
+
+.signin_portal {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.signin>.signin_portal>img {
+    object-fit: contain;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.signin>.signin_portal>p,
+.signin>form>h2,
+.signin>form>.signin_link {
+    color: #003366;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.signin>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin>form>h2 {
+    margin-bottom: 10px;
+}
+
+.signin>form>input {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted#003366;
+    color: #003366;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.signin>form>button {
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #006699;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.signin>form>button:hover {
+    background: #003366;
+    opacity: 0.7;
+}
+
+.signin>form>.signin_link {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

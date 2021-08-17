@@ -1,0 +1,21 @@
+.app_signinscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+}
+
+.app {
+    background: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app_body {
+    display: flex;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
